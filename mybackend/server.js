@@ -159,7 +159,7 @@ function enviarCorreoRecuperacion(correo, contrasena,nombre) {
     `,
   };
   
-
++
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
       console.error('Error al enviar el correo:', error);
